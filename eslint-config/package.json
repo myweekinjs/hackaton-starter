@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-myweekinjs",
+  "version": "1.0.0",
+  "description": "eslint config for all #myweekinjs hackathon projects",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "prettier.config.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "myweekinjs",
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">= 5"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "prettier": "^1.17.0"
+  }
+}
